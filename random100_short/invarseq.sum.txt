@@ -1,0 +1,3 @@
+##Number of invariant sites for run_alignment_no_resis_no_clus.fas (without Porto)
+##A,C,G,T
+756053,1443410,1438006,755885

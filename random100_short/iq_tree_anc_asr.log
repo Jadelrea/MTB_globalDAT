@@ -1,0 +1,161 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built Aug  2 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    javier-HP (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s run_alignment_no_resis.fas -te iq_tree.contree -T AUTO --threads-max 3 --prefix iq_tree_anc_asr -asr -m GTR
+Seed:    969492 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 16 12:11:58 2023
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file run_alignment_no_resis.fas ... Fasta format detected
+Reading fasta file: done in 0.110128 secs using 22.64% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0494272 secs using 135.9% CPU
+Alignment has 100 sequences with 18136 columns, 3466 distinct patterns
+5932 parsimony-informative, 12199 singleton sites, 5 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0162553 secs using 267% CPU
+   1  1705132_3          0.40%    passed     98.61%
+   2  1732328_4          0.60%    passed     25.40%
+   3  1763305_5          0.62%    passed     86.05%
+   4  Cosc_SRR5216774    1.80%    passed     56.18%
+   5  CRR188991          0.23%    passed     97.08%
+   6  CRR189318          0.61%    passed     90.82%
+   7  CRR189418          0.90%    passed     78.68%
+   8  CRR189585          1.09%    passed     74.69%
+   9  CRR189746          0.74%    passed     76.07%
+  10  CRR189936          0.59%    passed     83.36%
+  11  DRR188533          0.51%    passed     85.36%
+  12  DRR188599          0.65%    passed     79.05%
+  13  DRR188879          0.27%    passed     89.69%
+  14  DRR189127          0.29%    passed     98.88%
+  15  ERR038744          0.92%    passed     93.92%
+  16  ERR072028          0.63%    passed     97.18%
+  17  ERR190402          0.40%    passed     91.67%
+  18  ERR2179767         0.33%    passed     88.29%
+  19  ERR2199932         0.57%    passed     93.94%
+  20  ERR221657          0.55%    passed     93.22%
+  21  ERR2446384         0.47%    passed     99.85%
+  22  ERR2513810         0.38%    passed     92.98%
+  23  ERR3148220         0.43%    passed     90.56%
+  24  ERR3256115         0.37%    passed     90.20%
+  25  ERR3256136         0.42%    passed     23.25%
+  26  ERR3256231         0.45%    passed     50.58%
+  27  ERR3806662         1.36%    failed      4.96%
+  28  ERR473291          0.59%    passed     92.93%
+  29  ERR5865761         0.77%    passed     87.36%
+  30  ERR751929          0.57%    passed     51.01%
+  31  ERR779886          0.35%    passed     92.05%
+  32  ERS2394602         0.35%    passed     86.39%
+  33  ERS5281513         0.55%    passed     14.27%
+  34  ERS5281967         0.82%    passed     86.16%
+  35  ERS5282047         0.85%    passed     98.43%
+  36  ERS5282704         0.78%    passed     89.59%
+  37  ERS5282859         0.53%    passed     97.29%
+  38  ERS5298349         0.76%    passed     72.16%
+  39  ERS5300680         0.62%    passed     90.70%
+  40  ERS5301101         0.71%    passed     99.20%
+  41  ERS5301198         0.60%    passed     78.37%
+  42  ERS5317343         0.68%    passed     93.18%
+  43  ERS5319373         0.96%    passed     88.71%
+  44  ERS5319887         0.72%    passed     88.36%
+  45  ERS5320053         0.51%    passed     86.70%
+  46  ERS5320302         0.60%    passed     99.47%
+  47  ERS5320441         0.31%    passed     96.11%
+  48  ERS6420790         0.37%    passed     97.27%
+  49  ERS6421057         0.76%    passed     79.42%
+  50  ERS6421081         0.52%    passed     95.54%
+  51  G1429              0.50%    passed     97.88%
+  52  SAMEA7157666       0.73%    passed     90.78%
+  53  SAMN02414966       0.67%    passed     98.73%
+  54  SAMN02599116       0.71%    passed     38.64%
+  55  SRR10809194        0.41%    passed     98.96%
+  56  SRR11033679        0.59%    passed     89.80%
+  57  SRR11662181        0.57%    passed     79.24%
+  58  SRR11662597        0.63%    passed     95.90%
+  59  SRR11662719        0.56%    passed     86.81%
+  60  SRR12006579        0.82%    passed     26.41%
+  61  SRR12882323        0.58%    passed     13.86%
+  62  SRR13180205        0.65%    passed     99.88%
+  63  SRR14520037        0.55%    passed     49.68%
+  64  SRR14801335        0.63%    passed     88.15%
+  65  SRR16089853        0.39%    passed     99.52%
+  66  SRR16096985        0.59%    passed     43.39%
+  67  SRR16100247        0.62%    passed     85.18%
+  68  SRR1723700         1.05%    passed     74.68%
+  69  SRR18213707        0.99%    passed     37.77%
+  70  SRR18213714        0.86%    passed     91.68%
+  71  SRR18213727        0.54%    passed     94.21%
+  72  SRR18213948        0.64%    passed     95.84%
+  73  SRR18911458        0.24%    passed     95.88%
+  74  SRR19325555        0.87%    passed     94.08%
+  75  SRR5065463         0.24%    passed     96.58%
+  76  SRR5067279         0.72%    passed     52.00%
+  77  SRR5067480         0.68%    passed     75.98%
+  78  SRR5067627         0.69%    passed     98.27%
+  79  SRR5073662         0.86%    passed     92.49%
+  80  SRR5486898         0.76%    passed     98.37%
+  81  SRR5535713         0.99%    passed     72.08%
+  82  SRR5818626         0.61%    passed     99.78%
+  83  SRR6152746         0.63%    passed     31.91%
+  84  SRR6152933         0.56%    passed     41.16%
+  85  SRR6480340         0.71%    passed     98.87%
+  86  SRR6485136         0.40%    passed     96.20%
+  87  SRR6785473         0.49%    passed     98.45%
+  88  SRR6785522         0.75%    passed     81.49%
+  89  SRR6797851         0.55%    passed     58.20%
+  90  SRR6831765         0.79%    passed     99.98%
+  91  SRR6831795         0.75%    passed     83.60%
+  92  SRR6855684         0.66%    passed     88.51%
+  93  SRR6856057         0.29%    passed     96.95%
+  94  SRR6896538         0.24%    passed     98.36%
+  95  SRR6964559         0.67%    passed     93.43%
+  96  SRR6982209         0.35%    passed     98.41%
+  97  SRR6982375         0.50%    passed     50.14%
+  98  SRR7131250         1.31%    failed      3.28%
+  99  SRR7652984         0.39%    passed     95.07%
+ 100  SRR9738509         0.64%    passed     98.66%
+****  TOTAL              0.62%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading input tree file iq_tree.contree ...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 3 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 3.041 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -370882
+Threads: 2 / Time: 1.676 sec / Speedup: 1.815 / Efficiency: 91% / LogL: -370882
+Threads: 3 / Time: 1.377 sec / Speedup: 2.208 / Efficiency: 74% / LogL: -370882
+Determining AUTO threadcount: done in 6.0988 secs using 164.5% CPU
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -234780.500
+2. Current log-likelihood: -144877.086
+3. Current log-likelihood: -144875.994
+Optimal log-likelihood: -144875.991
+Rate parameters:  A-C: 1.00266  A-G: 3.32969  A-T: 0.38937  C-G: 0.44047  C-T: 3.30644  G-T: 1.00000
+Base frequencies:  A: 0.135  C: 0.364  G: 0.365  T: 0.136
+Parameters optimization took 3 rounds (0.494 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -144875.991
+Ancestral state probabilities printed to iq_tree_anc_asr.state
+Total tree length: 1.049
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 18.544 sec (0h:0m:18s)
+Total wall-clock time used: 15.032 sec (0h:0m:15s)
+
+Analysis results written to: 
+  IQ-TREE report:                iq_tree_anc_asr.iqtree
+  Maximum-likelihood tree:       iq_tree_anc_asr.treefile
+  Ancestral state:               iq_tree_anc_asr.state
+  Screen log file:               iq_tree_anc_asr.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t iq_tree_anc_asr.treefile -m "GTR{1.00266,3.32969,0.389369,0.440466,3.30644}+F{0.134853,0.364222,0.364944,0.135981}" --length 18136
+
+Date and Time: Mon Jan 16 12:12:14 2023
