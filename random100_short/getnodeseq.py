@@ -1,9 +1,11 @@
 #!/usr/bin/python
 
 import argparse
+import sys
 #import numpy as np
 
 def main():
+    
     parser = argparse.ArgumentParser()
     parser.add_argument('--state',help=".state file from iqtree_anc containing"
                         "internal nodes sequences, WITHOUT header and columnames" ,required=True)
@@ -18,7 +20,11 @@ def main():
     new_fasta = []
     #codenucl = ["A","C","G","T"] #what if parent should be -?
     for line in tableiqtree:
-        if line.split()[0] == node:
+        if '#' in line:
+            continue
+        elif 'Node\t' in line:
+            continue
+        elif line.split()[0] == node:
             #x = np.array(line.split()[3:7])
             #prob = x.astype(float)
             #myidx = np.argmax(prob)
