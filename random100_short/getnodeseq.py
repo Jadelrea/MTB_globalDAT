@@ -37,8 +37,6 @@ def main():
         else:
             myseq=''.join(myseq)
             new_fasta.append('>%s\n%s' % (node, myseq))
-            with open('nodeseqs.fasta', 'w') as f:
-                f.write('\n'.join(new_fasta))
             node = line.split()[0]
             myseq = []
             myseq.append(line.split('\t')[2])
